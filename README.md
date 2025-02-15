@@ -13,7 +13,7 @@ A metadata crawler for organizing Fantia videos for media servers like Jellyfin 
 
 ### Example
 
-> **The following are the default organization behavior, it can be changed with the "--prefix" and "--replace-space" flags**
+> **The following are the default organization behavior, it can be changed with the "--prefix" and "--dash" flags**
 
 #### Before Organization
 
@@ -63,8 +63,9 @@ A metadata crawler for organizing Fantia videos for media servers like Jellyfin 
 ![](https://geelao-oss.oss-cn-hangzhou.aliyuncs.com/db/202411281114234.png?x-oss-process=style/jpeg)
 
 ### Installation
-1. Download .whl package from Release
-2. `pip install /path/to/release/package.whl`
+```sh
+pip install fantia-crawler
+```
 
 ### Usage
 
@@ -111,8 +112,9 @@ $Env:http_proxy="http://127.0.0.1:yourport";$Env:https_proxy="http://127.0.0.1:y
 ```
 
 ### 安装
-1. 从Release页面下载.whl文件
-2. `pip install /path/to/whl/file`
+```sh
+pip install fantia-crawler
+```
 
 ### 使用方法
 
